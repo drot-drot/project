@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  >
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <style>
+    .tips-section {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 20px 0;
+      border: 2px solid #ddd;
+    }
+    .tips-list {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin: 15px 0;
+    }
+    .highlight-box {
+      border: 2px solid #8BC34A;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    .centered-image {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .image-box {
+      display: inline-block;
+      border: 2px solid #ddd;
+      padding: 10px;
+      border-radius: 8px;
+      margin: 20px auto;
+      box-shadow: none;
+      text-align: center;
+    }
+  </style>
+  <title>Panduan Pengelolaan Sampah Plastik</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__text">
+      <h1>Cara Mengelola Sampah Plastik dengan Bijak</h1>
+      <p>Panduan lengkap untuk mengurangi dan mengelola sampah plastik dalam kehidupan sehari-hari</p>
+    </div>
+  </header>
+  <main>
+    {% block content %}
+    <h2 class="main__title main__title--margin">Pengelolaan Sampah Plastik yang Baik dan Benar</h2>
+    <div style="text-align: center;">
+      <div class="image-box">
+        <img src="../static/img/plastic-bottle-2-svgrepo-com.svg"> <!-- Gambar ilustrasi sampah plastik -->
+      </div>
+    </div>
+    <div>
+      <p>Sampah plastik telah menjadi ancaman serius bagi lingkungan global. Di Indonesia, jutaan ton sampah plastik dihasilkan setiap tahunnya, dengan sebagian besar berakhir di lautan. Plastik dapat bertahan hingga ratusan tahun dan mencemari lingkungan, membahayakan kehidupan laut dan kesehatan manusia. Mari kita pelajari cara mengelola sampah plastik dengan benar.</p>
+    </div>
+
+    <div class="tips-section">
+      <h3>Jenis-Jenis Plastik yang Umum Ditemui:</h3>
+      <ul class="tips-list">
+        <li>PET (1) - Botol minuman, kemasan makanan</li>
+        <li>HDPE (2) - Botol susu, botol deterjen</li>
+        <li>PVC (3) - Pipa, bungkus makanan</li>
+        <li>LDPE (4) - Kantong plastik, pembungkus</li>
+        <li>PP (5) - Tutup botol, sedotan</li>
+        <li>PS (6) - Styrofoam, wadah makanan sekali pakai</li>
+        <li>OTHER (7) - Plastik campuran lainnya</li>
+      </ul>
+    </div>
+
+    <div>
+      <p>Dalam mengelola sampah plastik, langkah pertama adalah mengenali jenis-jenis plastik. Terdapat 7 jenis plastik dengan kode berbeda: PET (botol minuman), HDPE (botol deterjen), PVC, LDPE (kantong plastik), PP (wadah makanan), PS (styrofoam), dan Other. Tidak semua jenis plastik dapat didaur ulang dengan mudah. Pisahkan plastik berdasarkan jenisnya dan pastikan dalam kondisi bersih sebelum diserahkan ke pusat daur ulang.</p>
+    </div>
+
+    <div class="highlight-box">
+      <h3>Tips Mengurangi Penggunaan Plastik:</h3>
+      <ol style="padding-left: 20px;">
+        <li>Gunakan tas belanja yang dapat dipakai ulang</li>
+        <li>Hindari produk sekali pakai</li>
+        <li>Pilih kemasan yang dapat didaur ulang</li>
+        <li>Gunakan botol minum yang dapat diisi ulang</li>
+        <li>Pilih produk dengan kemasan minimal</li>
+      </ol>
+    </div>
+
+    <div>
+      <p>Cara terbaik mengatasi masalah sampah plastik adalah dengan mengurangi penggunaannya. Mulailah dengan membawa tas belanja sendiri, menghindari penggunaan sedotan plastik, dan memilih produk dengan kemasan yang dapat didaur ulang. Untuk plastik yang tidak dapat dihindari, pastikan untuk menggunakannya kembali semaksimal mungkin sebelum akhirnya didaur ulang. Dengan kesadaran dan tindakan nyata dari setiap individu, kita dapat mengurangi dampak negatif sampah plastik terhadap lingkungan.</p>
+    </div>
+
+    <div class="tips-section">
+      <h3>Langkah-langkah Daur Ulang Plastik:</h3>
+      <ul class="tips-list">
+        <li>Bersihkan plastik dari sisa kotoran</li>
+        <li>Pisahkan berdasarkan jenisnya</li>
+        <li>Kompres atau lipat untuk menghemat ruang</li>
+        <li>Kumpulkan dalam wadah terpisah</li>
+        <li>Serahkan ke bank sampah atau pusat daur ulang</li>
+      </ul>
+    </div>
+    {% endblock %}
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
